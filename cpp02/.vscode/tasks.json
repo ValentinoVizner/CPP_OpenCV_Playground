@@ -2,17 +2,16 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "clang build active file",
-            "command": "/usr/bin/clang",
+            "label": "clang++ build active file",
+            "command": "/home/vaba/swift/usr/bin/clang++",
             "args": [
                 "-g",
                 "${file}",
-                "Wall",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "/usr/bin"
+                "cwd": "/home/vaba/swift/usr/bin"
             }
         }
     ],
