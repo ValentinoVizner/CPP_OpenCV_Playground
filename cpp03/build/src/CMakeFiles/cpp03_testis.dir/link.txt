@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/cpp03_testis.dir/main.cpp.o  -o cpp03_testis  libhello.a libblah.a 

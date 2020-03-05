@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/build/src",
+  "command": "/usr/bin/c++   -I/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src  -g   -o CMakeFiles/blah.dir/blah.cpp.o -c /home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/blah.cpp",
+  "file": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/blah.cpp"
+},
+{
+  "directory": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/build/src",
+  "command": "/usr/bin/c++   -I/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src  -g   -o CMakeFiles/cpp03_testis.dir/main.cpp.o -c /home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/main.cpp",
+  "file": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/main.cpp"
+},
+{
+  "directory": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/build/src",
+  "command": "/usr/bin/c++   -I/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src  -g   -o CMakeFiles/hello.dir/hello.cpp.o -c /home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/hello.cpp",
+  "file": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/hello.cpp"
+},
+{
+  "directory": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/build/tests",
+  "command": "/usr/bin/c++   -I/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest  -g   -pthread -o CMakeFiles/test_blah.dir/test_blah.cpp.o -c /home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/tests/test_blah.cpp",
+  "file": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/tests/test_blah.cpp"
+},
+{
+  "directory": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/build/gtest",
+  "command": "/usr/bin/c++   -I/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/build/gtest",
+  "command": "/usr/bin/c++   -I/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src -I/usr/src/gtest/include -I/usr/src/gtest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+}
+]

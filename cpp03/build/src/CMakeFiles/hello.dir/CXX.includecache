@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/hello.cpp
+hello.h
+/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/hello.h
+
+/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/src/hello.h
+iostream
+-
+

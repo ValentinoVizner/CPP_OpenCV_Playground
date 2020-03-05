@@ -1,0 +1,418 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						32
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						33
+					]
+				},
+				{
+					"build" : "gtest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "/usr/src/gtest",
+					"targetIndexes" : 
+					[
+						30,
+						31
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "cpp03_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						32,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						31
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Continuous::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-Continuous-Debug-07baca4ab94ddc3652de.json",
+					"name" : "Continuous",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousBuild::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ContinuousBuild-Debug-400d992c025bb4646bea.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousConfigure::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ContinuousConfigure-Debug-1a164cdc58db2e004093.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousCoverage::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ContinuousCoverage-Debug-89a801ef43d32aefdff8.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousMemCheck::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-e7ede3efe467c1b422ef.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousStart::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ContinuousStart-Debug-52d4761b6a890b847e3e.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousSubmit::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ContinuousSubmit-Debug-5a3d4b51626707556dc3.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousTest::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ContinuousTest-Debug-432f2be2988e67cf93e7.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousUpdate::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ContinuousUpdate-Debug-01ff6c786ba3115af405.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Experimental::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-Experimental-Debug-bdc0f4530b79ecf6bd6a.json",
+					"name" : "Experimental",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalBuild::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ExperimentalBuild-Debug-efac8831e551e9d96a96.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalConfigure::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-19206f61d37d8a81bbf2.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalCoverage::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-3aaaf4191f672c50e5f6.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalMemCheck::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-b80209ac293d80cf936f.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalStart::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ExperimentalStart-Debug-71e04494444934d98a8f.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalSubmit::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-e1f2c350f7f255096762.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalTest::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ExperimentalTest-Debug-2f27e15993b10872c239.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalUpdate::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-0af674c9c0a2304163ec.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nightly::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-Nightly-Debug-81d795876ae74b8b03c3.json",
+					"name" : "Nightly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyBuild::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlyBuild-Debug-04d88e21b560ad8d6c2d.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyConfigure::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlyConfigure-Debug-41d0a7cfc7f419020f81.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyCoverage::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlyCoverage-Debug-4849d6e0dfb94513ed8b.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemCheck::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlyMemCheck-Debug-54a95dd51d7fcec60ed2.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemoryCheck::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-d5b457f7f74df1e48592.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyStart::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlyStart-Debug-2d5c18e87d6892d22999.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlySubmit::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlySubmit-Debug-05ac311ef78553e718e4.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyTest::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlyTest-Debug-a7012e9044c99d4c935d.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyUpdate::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-NightlyUpdate-Debug-2cc81f00777c4e29eedb.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "blah::@145eef247bfb46b6828c",
+					"jsonFile" : "target-blah-Debug-28c765a8ab5d40459527.json",
+					"name" : "blah",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cpp03_testis::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cpp03_testis-Debug-24f324104b6ad0a2b3b3.json",
+					"name" : "cpp03_testis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Debug-4732ed2639316df28645.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Debug-a03e9ad790bd8b957a42.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hello::@145eef247bfb46b6828c",
+					"jsonFile" : "target-hello-Debug-377bf1df817284aa0a7c.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_blah::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_blah-Debug-5467fbf4e70205c6493f.json",
+					"name" : "test_blah",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03/build",
+		"source" : "/home/vaba/Desktop/MY_EVERYTHING/CPP_OpenCV_Playground/cpp03"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
